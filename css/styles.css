@@ -1,3 +1,26 @@
+/* змінні */
+:root {
+
+}
+/* common styles */
+body {
+    background-color:;
+    color:;
+    font-family:;
+}
+/* Reset */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -11,3 +34,210 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+  .link,
+.header-link,
+.header-link-active
+   { text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+  .container {
+}
+.hero-container {
+}
+.hero-logo {
+}
+.hero-logo-img {
+}
+.hero-nav {
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+}
+.hero {
+}
+.hero-img-first {
+}
+.hero-title {
+}
+.hero-subtitle {
+}
+.hero-text {
+}
+.hero-img-second {
+}
+.about {
+}
+.about-container {
+}
+.aside-about {
+}
+.hero-excerpt {
+}
+.hero-video {
+}
+.workshop {
+}
+.workshop-container {
+}
+.workshop-title {
+}
+.workshop-img {
+}
+.workshop-list {
+}
+.workshop-item {
+}
+.workshop-icon {
+}
+.workshop-subtitle {
+}
+.workshop-text {
+}
+.workshop-coment {
+}
+.workshop-desc {
+}
+.workshop-link {
+}
+.reviews {
+}
+.reviews-container {
+}
+.reviews-aside {
+}
+
+.reviews-list {
+}
+.reviews-item {
+}
+.reviews-text {
+}
+.reviews-subtitle {
+}
+.reviews-img {
+}
+.philosophi {
+}
+.phil-container {
+}
+.phil-aside {
+}
+.phil-title {
+}
+.phil-line {
+}
+.phil-text {
+}
+.phil-list {
+}
+.phil-item {
+}
+.phil-img {
+}
+.authors {
+}
+.authors-container {
+}
+.authors-aside {
+}
+.authors-article {
+}
+.authors-list {
+}
+.authors-item {
+}
+.authors-text {
+}
+.authors-comment {
+}
+.authors-img {
+}
+.price {
+}
+.price-container {
+}
+.price-aside {
+}
+.price-list {
+}
+.price-item {
+}
+.price-subtitle {
+}
+.price-text {
+}
+.price-title {
+}
+.price-roser {
+}
+.price-point {
+}
+.price-desc {
+}
+.price-btn {
+}
+.price-img {
+}
+.order {
+}
+.order-container {
+}
+.order-aside {
+}
+.order-title {
+}
+.order-text {
+}
+.order-form {
+}
+.order-form-label {
+}
+.order-form-input {
+}
+.order-img {
+}
+.order-icon {
+}
+.order-excerpt {
+}
+.order-label-tel {
+}
+.order-input-tel {
+}
+.order-label-email {
+}
+.order-input-email {
+}
+.order-price {
+}
+.order-btn {
+}
+.footer {
+}
+.footer-link {
+}
+.footer-img {
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-media-list {
+}
+.footer-media-item {
+}
+.footer-media-link {
+}
+.footer-media-icon {
+}
+.footer-line {
+}
+.footer-excerpt {
+}
