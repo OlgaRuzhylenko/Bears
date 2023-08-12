@@ -33,16 +33,16 @@
             <a class="hero-link" href="#about">About</a>
           </li>
           <li class="hero-item">
-            <a class="hero-link" href="#">Authors</a>
+            <a class="hero-link" href="#authors">Authors</a>
           </li>
           <li class="hero-item">
-            <a class="hero-link" href="#">Philosophie</a>
+            <a class="hero-link" href="#philosophie">Philosophie</a>
           </li>
           <li class="hero-item">
-            <a class="hero-link" href="#">Reviews</a>
+            <a class="hero-link" href="#reviews">Reviews</a>
           </li>
           <li class="hero-item">
-            <a class="hero-link" href="#">Prise</a>
+            <a class="hero-link" href="#prise">Prise</a>
           </li>
         </ul>
       </nav>
@@ -78,7 +78,7 @@
       <!-- about section -->
       <section>
         <div>
-          <acide>about</acide>    
+          <acide>about</acide>
           <h2>want to surprise</h2>
           <h3>your loved ones with an unusual gift? Make it yourself</h3>
           <ul>
@@ -180,7 +180,7 @@
         </div>
       </section>
       <!--reviews -->
-      <section>
+      <section id="reviews">
         <div>
           <acide>reviews</acide>
           <h2 visually hidden>reviews</h2>
@@ -220,10 +220,11 @@
         </div>
       </section>
       <!--philosophy -->
-      <section>
+      <section id="philosophi">
         <div>
           <acide>our philosophy</acide>
-         fabout authors          <h2>We just enjoyed doing what we liked —</h2>
+          <h2>We just enjoyed doing what we liked —</h2>
+          <hr />
           <p>
             embroidering, knitting, making home textiles and interior toys. The
             creative imagination has no limits, but we have always dreamed
@@ -258,7 +259,7 @@
         </div>
       </section>
       <!--about authors -->
-      <section>
+      <section id="authors">
         <div>
           <acide>about authors</acide>
           <h2 visually hidden>about authors</h2>
@@ -300,18 +301,165 @@
       </section>
 
       <!--price -->
-      <section>
+      <section id="prise">
         <div>
           <acide>price</acide>
-          ul>li*3>h3>
+          <ul>
+            <li>
+              <h3>3.5 <span>hours</span></h3>
+              <p>duration of the workshop video with detailed instructions</p>
+            </li>
+            <li>
+              <h3>70$</h3>
+              <p>
+                for the price of a finished toy you get a complete instruction,
+                after studying you can create a lot of bears
+              </p>
+            </li>
+            <li>
+              <h3>100%</h3>
+              <p>Satisfaction with the result</p>
+            </li>
+          </ul>
+          <h2>How does it work?</h2>
+          <ul>
+            <li>
+              <svg class="workshop-icon" width="35" height="35">
+                <use href="./img/icons.svg#chek"></use>
+              </svg>
+              <p>fill out the form on this site</p>
+            </li>
+            <li>
+              <svg class="workshop-icon" width="35" height="35">
+                <use href="./img/icons.svg#chek"></use>
+              </svg>
+              <p>we contact you and clarify all questions about payment</p>
+            </li>
+            <li>
+              <svg class="workshop-icon" width="35" height="35">
+                <use href="./img/icons.svg#chek"></use>
+              </svg>
+              <p>After payment we send a link to the video</p>
+            </li>
+            <li>
+              <svg class="workshop-icon" width="35" height="35">
+                <use href="./img/icons.svg#chek"></use>
+              </svg>
+              <p>you watch the video at your convenience</p>
+            </li>
+            <li>
+              <svg class="workshop-icon" width="35" height="35">
+                <use href="./img/icons.svg#chek"></use>
+              </svg>
+              <p>create the toy of your dreams with your own hands</p>
+            </li>
+            <li>
+              <svg class="workshop-icon" width="35" height="35">
+                <use href="./img/icons.svg#chek"></use>
+              </svg>
+              <p>enjoy the result</p>
+            </li>
+          </ul>
+          <button type="button">order now</button>
+          <img
+            src="./img/price/bear.jpg"
+            alt="teddy bear in yellow jacket"
+            width="373"
+            height="438"
+          />
         </div>
       </section>
       <!--order form -->
       <section>
-        <div></div>
+        <div>
+          <acide>order</acide>
+          <h2>Get started</h2>
+          <p>Leave your details and we'll get back to you shortly</p>
+          <form name="order-form">
+            <label for="order-form-name">
+              <input
+                name="order-form-name"
+                type="name"
+                placeholder="Your name"
+              />
+            </label>
+            <img
+              src="./img/form/UA.png"
+              alt="ukrainian flag"
+              width="28"
+              height="20"
+            />
+            <svg class="" width="24" height="24">
+              <use href="./img/icons.svg#chevron-down"></use>
+            </svg>
+            <p>+38</p>
+            <label for="order-form-tel">
+              <input type="tel" name="order-form-tel" placeholder="Phone" />
+            </label>
+            <label for="order-form-email">
+              <input
+                type="email"
+                name="order-form-email"
+                placeholder="E-mail"
+              />
+            </label>
+          </form>
+          <p>70$</p>
+          <button type="submit">Send</button>
+        </div>
       </section>
     </main>
     <!-- footer -->
-    <footer></footer>
+    <footer>
+      <a href="./index.html"
+        ><img
+          src="./img/header/logo-min.png"
+          alt="company logo"
+          width="128"
+          height="60"
+      /></a>
+      <ul>
+        <li class="">
+          <a class="" href="#about">About</a>
+        </li>
+        <li class="">
+          <a class="" href="#authors">Authors</a>
+        </li>
+        <li class="">
+          <a class="" href="#philosophie">Philosophie</a>
+        </li>
+        <li class="">
+          <a class="" href="#reviews">Reviews</a>
+        </li>
+        <li class="">
+          <a class="" href="#prise">Prise</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/" aria-label="logo instagram" target="_blank">
+            <svg class="" width="40" height="40">
+              <use href="./img/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/" aria-label="logo facebook" target="_blank">
+            <svg class="" width="40" height="40">
+              <use href="./img/icons.svg#fb"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://web.telegram.org/k/" aria-label="logo telegram" target="_blank">
+            <svg class="" width="40" height="40">
+              <use href="./img/icons.svg#telegram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <hr>
+      <p>©2023 Philomena Kloss. All rights reserved</p>
+    </footer>
   </body>
 </html>
