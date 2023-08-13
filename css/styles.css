@@ -1,12 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /* змінні */
 :root {
+    --primary-font: Inter, sans-serif;
+    --primary-text-color: #3D362D;
+    --primary-bgc: #FFFFFF;
+    --secondary-bgc: #F9F5EF;
+    --text-hover: #AEA9A0;
 
 }
 /* common styles */
 body {
-    background-color:;
-    color:;
-    font-family:;
+    background-color: var(--primary-bgc);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font);
 }
 /* Reset */
 h1, h2, h3, h4, h5, h6, p {
@@ -15,6 +25,7 @@ h1, h2, h3, h4, h5, h6, p {
 ol, ul {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 img {
     display: block;
@@ -34,210 +45,48 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  .link,
-.header-link,
-.header-link-active
-   { text-decoration: none;
-}
-
-.list {
-    list-style-type: none;
-}
+a {
+    text-decoration: none;
+    cursor: pointer;}
 
   .container {
-}
-.hero-container {
-}
-.hero-logo {
-}
-.hero-logo-img {
-}
-.hero-nav {
-}
-.hero-list {
-}
-.hero-item {
-}
-.hero-link {
-}
-.hero {
-}
-.hero-img-first {
-}
-.hero-title {
-}
-.hero-subtitle {
-}
-.hero-text {
-}
-.hero-img-second {
-}
-.about {
-}
-.about-container {
-}
-.aside-about {
-}
-.hero-excerpt {
-}
-.hero-video {
-}
-.workshop {
-}
-.workshop-container {
-}
-.workshop-title {
-}
-.workshop-img {
-}
-.workshop-list {
-}
-.workshop-item {
-}
-.workshop-icon {
-}
-.workshop-subtitle {
-}
-.workshop-text {
-}
-.workshop-coment {
-}
-.workshop-desc {
-}
-.workshop-link {
-}
-.reviews {
-}
-.reviews-container {
-}
-.reviews-aside {
-}
+    /* 1290+16pl+16pr */
+    max-width: 1322px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 
-.reviews-list {
+    outline: 2px solid red;
+    outline-offset: -2px; 
 }
-.reviews-item {
+ /* header styles */
+ .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .header-logo {
+    margin-right: 731px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.reviews-text {
+.header-logo-img {
 }
-.reviews-subtitle {
+.header-nav {
 }
-.reviews-img {
+.header-list {
+    display: flex;
+    gap: 30px;
 }
-.philosophi {
+.header-item {
 }
-.phil-container {
+.header-link {
+    font-size: 17px;
+    line-height: 1.3;
+    color: inherit;
 }
-.phil-aside {
-}
-.phil-title {
-}
-.phil-line {
-}
-.phil-text {
-}
-.phil-list {
-}
-.phil-item {
-}
-.phil-img {
-}
-.authors {
-}
-.authors-container {
-}
-.authors-aside {
-}
-.authors-article {
-}
-.authors-list {
-}
-.authors-item {
-}
-.authors-text {
-}
-.authors-comment {
-}
-.authors-img {
-}
-.price {
-}
-.price-container {
-}
-.price-aside {
-}
-.price-list {
-}
-.price-item {
-}
-.price-subtitle {
-}
-.price-text {
-}
-.price-title {
-}
-.price-roser {
-}
-.price-point {
-}
-.price-desc {
-}
-.price-btn {
-}
-.price-img {
-}
-.order {
-}
-.order-container {
-}
-.order-aside {
-}
-.order-title {
-}
-.order-text {
-}
-.order-form {
-}
-.order-form-label {
-}
-.order-form-input {
-}
-.order-img {
-}
-.order-icon {
-}
-.order-excerpt {
-}
-.order-label-tel {
-}
-.order-input-tel {
-}
-.order-label-email {
-}
-.order-input-email {
-}
-.order-price {
-}
-.order-btn {
-}
-.footer {
-}
-.footer-link {
-}
-.footer-img {
-}
-.footer-list {
-}
-.footer-item {
-}
-.footer-media-list {
-}
-.footer-media-item {
-}
-.footer-media-link {
-}
-.footer-media-icon {
-}
-.footer-line {
-}
-.footer-excerpt {
+.header-link:hover,
+.header-link:focus {
+    color: var(--text-hover);
 }

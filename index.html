@@ -4,45 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bears</title>
+     <!-- normalize -->
+     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <!-- fonts -->
-
-    <!-- normalize -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <!-- styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+   
+       <!-- styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
-    <header class="container hero-container">
-      <a class="hero-logo" href="./index.html">
+    <header class="container header-container">
+      <a class="header-logo" href="./index.html">
         <img
-          class="hero-logo-img"
+          class="header-logo-img"
           src="./img/header/logo-min.png"
           alt="company logo"
           width="128"
           height="60"
         />
       </a>
-      <nav class="hero-nav">
-        <ul class="hero-list">
-          <li class="hero-item">
-            <a class="hero-link" href="#about">About</a>
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="#about">About</a>
           </li>
-          <li class="hero-item">
-            <a class="hero-link" href="#authors">Authors</a>
+          <li class="header-item">
+            <a class="header-link" href="#authors">Authors</a>
           </li>
-          <li class="hero-item">
-            <a class="hero-link" href="#philosophie">Philosophie</a>
+          <li class="header-item">
+            <a class="header-link" href="#philosophie">Philosophie</a>
           </li>
-          <li class="hero-item">
-            <a class="hero-link" href="#reviews">Reviews</a>
+          <li class="header-item">
+            <a class="header-link" href="#reviews">Reviews</a>
           </li>
-          <li class="hero-item">
-            <a class="hero-link" href="#prise">Prise</a>
+          <li class="header-item">
+            <a class="header-link" href="#prise">Prise</a>
           </li>
         </ul>
       </nav>
@@ -413,67 +412,69 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <a class="footer-link" href="./index.html"
-        ><img class="footer-img"
-          src="./img/header/logo-min.png"
-          alt="company logo"
-          width="128"
-          height="60"
-      /></a>
-      <ul class="footer-list">
-        <li class="footer-item">
-          <a class="footer-link" href="#about">About</a>
-        </li>
-        <li class="footer-item">
-          <a class="footer-link" href="#authors">Authors</a>
-        </li>
-        <li class="footer-item">
-          <a class="footer-link" href="#philosophie">Philosophie</a>
-        </li>
-        <li class="footer-item">
-          <a class="footer-link" href="#reviews">Reviews</a>
-        </li>
-        <li class="footer-item">
-          <a class="footer-link" href="#prise">Prise</a>
-        </li>
-      </ul>
-      <ul class="footer-media-list">
-        <li class="footer-media-item">
-          <a class="footer-media-link"
-            href="https://www.instagram.com/"
-            aria-label="logo instagram"
-            target="_blank"
-          >
-            <svg class="footer-media-icon" width="40" height="40">
-              <use href="./img/icons.svg#instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-media-item">
-          <a class="footer-media-link"
-            href="https://www.facebook.com/"
-            aria-label="logo facebook"
-            target="_blank"
-          >
-            <svg class="footer-media-icon" width="40" height="40">
-              <use href="./img/icons.svg#fb"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-media-item">
-          <a class="footer-media-link"
-            href="https://web.telegram.org/k/"
-            aria-label="logo telegram"
-            target="_blank"
-          >
-            <svg class="footer-media-icon" width="40" height="40">
-              <use href="./img/icons.svg#telegram"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-      <hr class="footer-line"/>
-      <p class="footer-excerpt">©2023 Philomena Kloss. All rights reserved</p>
+      <div class="container footer-containe">
+        <a class="footer-link" href="./index.html"
+          ><img class="footer-img"
+            src="./img/header/logo-min.png"
+            alt="company logo"
+            width="128"
+            height="60"
+        /></a>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a class="footer-link" href="#about">About</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#authors">Authors</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#philosophie">Philosophie</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#prise">Prise</a>
+          </li>
+        </ul>
+        <ul class="footer-media-list">
+          <li class="footer-media-item">
+            <a class="footer-media-link"
+              href="https://www.instagram.com/"
+              aria-label="logo instagram"
+              target="_blank"
+            >
+              <svg class="footer-media-icon" width="40" height="40">
+                <use href="./img/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-media-item">
+            <a class="footer-media-link"
+              href="https://www.facebook.com/"
+              aria-label="logo facebook"
+              target="_blank"
+            >
+              <svg class="footer-media-icon" width="40" height="40">
+                <use href="./img/icons.svg#fb"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-media-item">
+            <a class="footer-media-link"
+              href="https://web.telegram.org/k/"
+              aria-label="logo telegram"
+              target="_blank"
+            >
+              <svg class="footer-media-icon" width="40" height="40">
+                <use href="./img/icons.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <hr class="footer-line"/>
+        <p class="footer-excerpt">©2023 Philomena Kloss. All rights reserved</p>
+      </div>
     </footer>
   </body>
 </html>
