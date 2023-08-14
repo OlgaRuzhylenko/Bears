@@ -188,15 +188,24 @@ a {
 }
 /* about styles */
 .about {
+    background-color: var(--secondary-bgc);
 }
 .about-container {
     padding-top: 90px;
     padding-bottom: 100px;
+
+    display: flex;
+    gap: 44px;
 }
 .aside-about {
     font-size: 20px;
     line-height: 1.3; 
     text-transform: uppercase;
+
+    display: block;
+    width: 176px;
+
+    margin-top: 10px;
 }
 .about-title {
     font-family: Alegreya Sans SC;
@@ -210,20 +219,90 @@ a {
     font-weight: 400;
     line-height: 1.3;
     text-transform: lowercase;
+
+    margin-left: 110px;
+    margin-bottom: 40px;
 }
 .about-subtitle-letter {
     font-size: 50px;
     font-weight: 400;
     line-height: 1.3;
     text-transform: uppercase;
+
+   
 }
 .about-list {
+    display: flex;
+    gap: 30px;
+    max-width: 881px;
+
+    margin-left: 110px;
+    padding-bottom: 50px;
+
+    border-bottom: 1px solid var(--primary-text-color);
+
+    margin-bottom: 49px;
 }
 .about-item {
 }
 .about-text {
+    font-size: 20px;
+    line-height: 1.3;
+    display: block;
+    width: 441px;
 }
 .about-excerpt {
+    font-size: 20px;
+    line-height: 1.3;
+
+    margin-left: 110px;
+    margin-bottom: 40px;
 }
+
 .about-video {
+    margin-left: 110px;
+}
+/* workshop styles */
+.workshop {
+}
+.workshop-container {
+    padding-top: 90px;
+    padding-bottom: 48px;
+}
+.workshop-title {
+    font-family: Alegreya Sans SC;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 0.9;
+    text-transform: uppercase;
+
+    text-align: center;
+
+    margin-bottom: 6px;
+}
+.workshop-wrap {
+    display: flex;
+    gap: 90px;
+
+}
+.workshop-content {
+
+}
+.workshop-img {
+}
+.workshop-list {
+}
+.workshop-item {
+}
+.workshop-icon {
+}
+.workshop-subtitle {
+}
+.workshop-text {
+}
+.workshop-coment {
+}
+.workshop-desc {
+}
+.workshop-link {
 }
