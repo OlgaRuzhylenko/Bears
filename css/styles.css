@@ -508,3 +508,161 @@ margin-bottom: 40px;
 }
 .phil-img {
 }
+/* about authors styles */
+.authors {
+    background-color: var(--secondary-bgc);
+}
+.authors-container {
+    display: flex;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.authors-aside {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+.authors-wrap {
+display: flex;
+gap: 30px;
+
+}
+.authors-information {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    border-top: 1px solid var(--primary-text-color);
+    border-bottom: 1px solid var(--primary-text-color);
+}
+.visually-hidden {
+}
+.authors-article {
+    height: 100%;
+}
+.authors-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    max-width: 518px;
+}
+.authors-item {
+}
+.authors-text {
+    font-size: 20px;
+   font-weight: 400;
+    line-height: 1.3;
+ 
+}
+.authors-comment {
+}
+.authors-img {
+}
+/* price styles */
+.price {
+}
+
+.price-container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.price-list {
+    display: flex;
+    gap: 30px;
+
+    margin-bottom: 69px;
+}
+.price-item:not(:last-child) {
+    border-right: 1px solid #000;
+}
+.price-item {
+}
+.price-subtitle {
+    font-family: Alata;
+font-size: 90px;
+font-weight: 400;
+line-height: 0.9;
+text-transform: uppercase;
+
+margin-bottom: 15px;
+}
+
+.price-text {
+    font-size: 20px;
+    line-height: 1.3;
+}
+.price-text-part {
+    font-family: Alata;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+.price-title {
+    font-family: Alegreya Sans SC;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 0.9;
+    text-transform: uppercase;
+
+    margin-left: 220px;
+
+    margin-bottom: 40px;
+}
+.price-roser {
+    margin-bottom: 60px;
+}
+.price-point {
+    display: flex;
+    gap: 10px;
+
+    margin-bottom: 27px;
+}
+.workshop-icon {
+}
+.price-desc {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: lowercase;
+}
+.price-desc-letter {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+.price-btn {
+    border-radius: 50px;
+border: 2px solid var(--btn-border-color);
+min-width: 146px;
+min-height: 53px;
+
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 1.3;
+display: flex;
+align-items: center;
+justify-content: center;
+
+background-color: inherit;
+}
+.price-btn:hover,
+.price-btn:focus {
+    border: 3px solid var(--btn-border-color);
+}
+.price-btn:active {
+    background-color: var(--btn-border-color);
+    color: #FFFFFF;
+}
+.price-btn-letter {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+.price-img {
+}
