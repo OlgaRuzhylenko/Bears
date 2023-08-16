@@ -567,6 +567,8 @@ gap: 30px;
 .price-container {
     padding-top: 100px;
     padding-bottom: 50px;
+
+    position: relative;
 }
 .price-list {
     display: flex;
@@ -613,15 +615,21 @@ margin-bottom: 15px;
 }
 .price-roser {
     margin-bottom: 60px;
+margin-left: 220px;
+
+max-width: 691px;
 }
+
 .price-point {
     display: flex;
     gap: 10px;
 
     margin-bottom: 27px;
 }
-.workshop-icon {
+.price-icon {
+
 }
+
 .price-desc {
     font-size: 20px;
     font-weight: 600;
@@ -649,6 +657,8 @@ align-items: center;
 justify-content: center;
 
 background-color: inherit;
+
+margin-left: 220px;
 }
 .price-btn:hover,
 .price-btn:focus {
@@ -665,4 +675,73 @@ background-color: inherit;
     text-transform: uppercase;
 }
 .price-img {
+    position: absolute;
+    top: 372px;
+    right: 20px;
+    z-index: -1;
+}
+/* order styles */
+.order {
+    background-color: var(--secondary-bgc);
+}
+.order-container {
+    display: flex;
+    gap: 152px;
+
+    padding-top: 90px;
+   padding-bottom: 110px;
+}
+.order-aside {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+.order-wrap {
+
+}
+.order-title {
+    font-family: Alegreya Sans SC;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+
+.order-text-letter {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+.order-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: lowercase;
+
+}
+.order-form {
+}
+.order-form-label {
+}
+.order-form-input {
+}
+.order-img {
+}
+.order-icon {
+}
+.order-excerpt {
+}
+.order-label-tel {
+}
+.order-input-tel {
+}
+.order-label-email {
+}
+.order-input-email {
+}
+.order-price {
+}
+.order-btn {
 }
