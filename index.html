@@ -22,35 +22,37 @@
   </head>
   <body>
     <!-- header -->
-    <header class="container header-container">
-      <a class="header-logo" href="./index.html">
-        <img
-          class="header-logo-img"
-          src="./img/header/logo-min.png"
-          alt="company logo"
-          width="128"
-          height="60"
-        />
-      </a>
-      <nav class="header-nav">
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-link" href="#about">About</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="#authors">Authors</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="#philosophie">Philosophie</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="#reviews">Reviews</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="#prise">Prise</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container header-container">
+        <a class="header-logo" href="./index.html">
+          <img
+            class="header-logo-img"
+            src="./img/header/logo-min.png"
+            alt="company logo"
+            width="128"
+            height="60"
+          />
+        </a>
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="#about">About</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#authors">Authors</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#philosophie">Philosophie</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#prise">Prise</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- main -->
     <main>
@@ -463,28 +465,30 @@
                   class="order-form-input"
                   name="order-form-text"
                   type="text"
-                  placeholder="Your name"
+                  placeholder="|Your name"
                 />
               </label>
-              <img
-                class="order-img"
-                src="./img/form/UA.png"
-                alt="ukrainian flag"
-                width="28"
-                height="20"
-              />
-              <svg class="order-icon" width="24" height="24">
-                <use href="./img/icons.svg#chevron-down"></use>
-              </svg>
-              <p class="order-excerpt">+38</p>
-              <label class="order-label-tel">
-                <input
-                  class="order-input-tel"
-                  type="tel"
-                  name="order-form-tel"
-                  placeholder="Phone"
+              <div class="order-flag-tel">
+                <img
+                  class="order-img"
+                  src="./img/form/UA.png"
+                  alt="ukrainian flag"
+                  width="28"
+                  height="20"
                 />
-              </label>
+                <svg class="order-icon" width="24" height="24">
+                  <use href="./img/icons.svg#chevron-down"></use>
+                </svg>
+                <p class="order-excerpt">+38</p>
+                <label class="order-label-tel">
+                  <input
+                    class="order-input-tel"
+                    type="tel"
+                    name="order-form-tel"
+                    placeholder="Phone"
+                  />
+                </label>
+              </div>
               <label class="order-label-email">
                 <input
                   class="order-input-email"
@@ -502,71 +506,73 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="container footer-containe">
-        <a class="footer-link" href="./index.html"
-          ><img
-            class="footer-img"
-            src="./img/header/logo-min.png"
-            alt="company logo"
-            width="128"
-            height="60"
-        /></a>
-        <ul class="footer-list">
-          <li class="footer-item">
-            <a class="footer-link" href="#about">About</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="#authors">Authors</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="#philosophie">Philosophie</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="#reviews">Reviews</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="#prise">Prise</a>
-          </li>
-        </ul>
-        <ul class="footer-media-list">
-          <li class="footer-media-item">
-            <a
-              class="footer-media-link"
-              href="https://www.instagram.com/"
-              aria-label="logo instagram"
-              target="_blank"
-            >
-              <svg class="footer-media-icon" width="40" height="40">
-                <use href="./img/icons.svg#instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-media-item">
-            <a
-              class="footer-media-link"
-              href="https://www.facebook.com/"
-              aria-label="logo facebook"
-              target="_blank"
-            >
-              <svg class="footer-media-icon" width="40" height="40">
-                <use href="./img/icons.svg#fb"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-media-item">
-            <a
-              class="footer-media-link"
-              href="https://web.telegram.org/k/"
-              aria-label="logo telegram"
-              target="_blank"
-            >
-              <svg class="footer-media-icon" width="40" height="40">
-                <use href="./img/icons.svg#telegram"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-        <hr class="footer-line" />
+      <div class="container footer-container">
+        <div class="footer-wrap">
+          <a class="footer-link" href="./index.html"
+            ><img
+              class="footer-img"
+              src="./img/header/logo-min.png"
+              alt="company logo"
+              width="128"
+              height="60"
+          /></a>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="#about">About</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#authors">Authors</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#philosophie">Philosophie</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#prise">Prise</a>
+            </li>
+          </ul>
+          <ul class="footer-media-list">
+            <li class="footer-media-item">
+              <a
+                class="footer-media-link"
+                href="https://www.instagram.com/"
+                aria-label="logo instagram"
+                target="_blank"
+              >
+                <svg class="footer-media-icon" width="40" height="40">
+                  <use href="./img/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-media-item">
+              <a
+                class="footer-media-link"
+                href="https://www.facebook.com/"
+                aria-label="logo facebook"
+                target="_blank"
+              >
+                <svg class="footer-media-icon" width="40" height="40">
+                  <use href="./img/icons.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-media-item">
+              <a
+                class="footer-media-link"
+                href="https://web.telegram.org/k/"
+                aria-label="logo telegram"
+                target="_blank"
+              >
+                <svg class="footer-media-icon" width="40" height="40">
+                  <use href="./img/icons.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        
         <p class="footer-excerpt">©2023 Philomena Kloss. All rights reserved</p>
       </div>
     </footer>
