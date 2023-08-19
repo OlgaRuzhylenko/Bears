@@ -17,7 +17,11 @@
       href="https://fonts.googleapis.com/css2?family=Alata&family=Alegreya+Sans+SC:wght@400;500&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
+<!-- slyder -->
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <!-- styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -28,7 +32,7 @@
         <a class="header-logo" href="./index.html">
           <img
             class="header-logo-img"
-            src="./img/header/logo-min.png"
+            src="./img/header/logo.png"
             alt="company logo"
             width="128"
             height="60"
@@ -75,7 +79,7 @@
               this, then our video Workshop is for you
             </p>
             <div class="hero-btn">
-              <a class="hero-link" href="#price">Get Priсe</a>
+              <a class="hero-link" href="#prise">Get Priсe</a>
             </div>
           </div>
           <div class="hero-img-second-wrap">
@@ -217,7 +221,7 @@
                 outfit and fully ready for play or decoration
               </p>
               <div class="workshop-btn">
-                <a class="workshop-link" href="#price">Get Priсe</a>
+                <a class="workshop-link" href="#prise">Get Priсe</a>
               </div>
             </div>
           </div>
@@ -451,6 +455,28 @@
           />
         </div>
       </section>
+      <section class="container slider-container">
+<div class="center">
+<div class="slider-img">
+  <img class="slider-img-first" src="./img/slider/first.jpg" alt="teddy-bear" width="300" height="400">
+</div>
+<div class="slider-img">
+  <img class="slider-img-second" src="./img/slider/second.jpg" alt="teddy-bear" width="300" height="400">
+</div>
+<div class="slider-img">
+  <img class="slider-img-third" src="./img/slider/third.jpg" alt="teddy-bear" width="300" height="400">
+</div>
+<div class="slider-img">
+  <img class="slider-img-fourth" src="./img/slider/fourth.jpg" alt="teddy-bear" width="300" height="400">
+</div>
+<div class="slider-img">
+  <img class="slider-img-fifth" src="./img/slider/fifth.jpg" alt="teddy-bear" width="300" height="400">
+</div>
+<div class="slider-img">
+  <img class="slider-img-sixth" src="./img/slider/sixth.jpg" alt="teddy-bear" width="300" height="400">
+</div>
+</div>
+      </section>
       <!--order form -->
       <section class="order">
         <div class="container order-container">
@@ -460,7 +486,9 @@
             <p class="order-text">
               <span class="order-text-letter">L</span>eave your details and we'll get back to you shortly
             </p>
+
             <form class="order-form" name="order-form">
+
               <label class="order-form-label">
                 <input
                   class="order-form-input"
@@ -469,6 +497,7 @@
                   placeholder="Your name"
                 />
               </label>
+
               <div class="order-flag-tel">
                 <img
                   class="order-img"
@@ -481,6 +510,7 @@
                   <use href="./img/icons.svg#chevron-down"></use>
                 </svg>
                 <p class="order-excerpt">+38</p>
+
                 <label class="order-label-tel">
                   <input
                     class="order-input-tel"
@@ -489,7 +519,8 @@
                     placeholder="Phone"
                   />
                 </label>
-              </div>
+                 </div>
+
               <label class="order-label-email">
                 <input
                   class="order-input-email"
@@ -498,7 +529,9 @@
                   placeholder="E-mail"
                 />
               </label>
+
             </form>
+
             <p class="order-price">70$</p>
             <button class="order-btn" type="submit">Send</button>
           </div>
@@ -577,5 +610,10 @@
         <p class="footer-excerpt">©2023 Philomena Kloss. All rights reserved</p>
       </div>
     </footer>
+    
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./js/slider.js"></script>
   </body>
 </html>
